@@ -6,34 +6,46 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>
+    <!-- <h1> -->
         <!-- basic syntax -->
         <?php
-            echo "Hi, I'm PHP";
+            // echo "Hi, I'm PHP";
         ?>
-    </h1>
+    <!-- </h1> -->
 
-    <h1>
-        <?php echo "hello world" ?>
-    </h1>
+    <!-- <h1> -->
+        <?php // echo "hello world" ?>
+    <!-- </h1> -->
 
-    <p>
+    <!-- <p> -->
         <!-- short echo tag -->
-        <?= "san kyi tar" ?>
-    </p>
+        <?= "print this string" ?>
+    <!-- </p> -->
 
     <!-- if else condition -->
-    <?php if(true){ ?>
-        <p>It is true</p>
-    <?php }else { ?>
-        <p>It is false</p>
-    <?php } ?>
+    <?php // if(true){ ?>
+        <!-- <p>It is true</p> -->
+    <?php // }else { ?>
+        <!-- <p>It is false</p> -->
+    <?php // } ?>
 
     <!-- escaping from html -->
-    <?php if(false): ?>
-        <p>It is true</p>
-    <?php else: ?>
-        <p>It is false</p>
-    <?php endif; ?>
+    <?php // if(false): ?>
+        <!-- <p>It is true</p> -->
+    <?php // else: ?>
+        <!-- <p>It is false</p> -->
+    <?php // endif; ?>
+
+
+
+    <?php 
+        $fruits = ["apple","banana","orange","grapes","mango"];
+    ?>
+
+    <pre>
+        <?php
+            print_r($fruits);
+        ?>
+    </pre>
 </body>
 </html>
